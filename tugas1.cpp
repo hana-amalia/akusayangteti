@@ -5,21 +5,25 @@ using namespace std;
 
 double distance(double x1, double y1, double x2, double y2) {
     return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
-} //calculate distance
+} 
+//calculate distance
 
 double radius(double x1, double y1, double x2, double y2) {
     return distance(x1, y1, x2, y2);
-} //calculate radius
+} 
+//calculate radius
 
 double circumference(double r) {
     const double pi = 3.1416;
     return 2 * pi * r;
-} //calculate keliling
+} 
+//calculate keliling
 
 double area(double r) {
     const double pi = 3.1416;
     return pi * r * r;
-} //calculate luaas
+} 
+//calculate luaas
 
 int main() {
     double x1, y1, x2, y2;

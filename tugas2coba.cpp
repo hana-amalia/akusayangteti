@@ -72,7 +72,7 @@ void printStudentsData() {
          << "Grade" << endl;
 
     for (int i = 0; i < SIZE; i++) {
-        cout << left << setw(15) << students[i].studentLName + ", " + students[i].studentFName
+        cout << left << setw(20) << students[i].studentLName + ", " + students[i].studentFName
              << setw(10) << students[i].testScore
              << students[i].grade << endl;
     }
